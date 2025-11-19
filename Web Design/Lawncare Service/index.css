@@ -1,0 +1,144 @@
+/* ----------------------------------------------------------- */
+/* Reset + Base Page Structure                                 */
+/* ----------------------------------------------------------- */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainbox {
+  width: 1000px;
+  min-height: 600px;
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+}
+
+/*  General utility classes */
+.boldtext {
+  font-weight: 700;
+}
+
+.centertext {
+  text-align: center;
+}
+
+/* ----------------------------------------------------------- */
+/* Header Section                                               */
+/* ----------------------------------------------------------- */
+header {
+  height: 80px;
+  border-bottom: 2px solid #ccc;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* ----------------------------------------------------------- */
+/* Nav Section                                                  */
+/* ----------------------------------------------------------- */
+nav {
+  height: 40px;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+
+/* ----------------------------------------------------------- */
+/* Main Section                                                 */
+/* ----------------------------------------------------------- */
+main {
+  padding: 20px;
+}
+
+/* Input form styles */
+.inputbox label {
+  display: inline-block;
+  width: 180px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.inputbox input {
+  width: 250px;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.inputbox button {
+  padding: 10px 18px;
+  font-size: 15px;
+  background-color: #2a8a5f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.inputbox button:hover {
+  background-color: #22734e;
+}
+
+/* Output section */
+#output {
+  margin-top: 25px;
+}
+
+/* Invoice table styles */
+.resultTable {
+  border-collapse: collapse;
+  width: 480px;
+  margin-top: 10px;
+}
+
+.resultTable th,
+.resultTable td {
+  border: 1px solid black;
+  padding: 6px 10px;
+}
+
+.resultTable th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.resultTable .amt {
+  text-align: right;
+}
+
+/* Customer block spacing */
+#output p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Invoice header */
+#output h2 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+/* ----------------------------------------------------------- */
+/* Footer Section                                               */
+/* ----------------------------------------------------------- */
+footer {
+  height: 50px;
+  border-top: 2px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
